@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.018",
+  "build": "0.018.20260818-codex",
+  "kind": "governance-foundation",
+  "summary": "Eindeutige Produktkennung, Projektschema und reproduzierbarer Release-Build.",
+  "productFilesChanged": [
+    "src/app.html"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_018_20260818-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_018_20260818-codex.html",
+    "outputs/release-0.018.20260818-codex/SCHAU-HIN-Slides-V0_018_20260818-codex.html",
+    "SCHAU-HIN-Slides-Werkstatt.html"
+  ],
+  "riskAreas": [
+    "release-documentation",
+    "project-schema",
+    "single-html-build",
+    "design-system-registry"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.028",
+  "build": "0.028.20260819-codex",
+  "kind": "external-evidence-and-operations",
+  "summary": "Eingefrorener stabiler Funktionsstand, selbstständige Hashverifikation, Betriebsregeln und vorbereitete gebündelte Schlussabnahme.",
+  "productFilesChanged": ["src/app.html", "src/workshop.html", "quality/operational-policy.json"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_028_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_028_20260819-codex.html",
+    "outputs/release-0.028.20260819-codex/SCHAU-HIN-Slides-V0_028_20260819-codex.html",
+    "outputs/deployment-0.028.20260819-codex/index.html",
+    "outputs/verification-0.028.20260819-codex/release-attestation.json",
+    "quality/release-attestation.json"
+  ],
+  "riskAreas": ["release-integrity", "external-verification", "operations", "rollback", "manual-acceptance"],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}

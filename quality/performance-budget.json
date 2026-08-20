@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "fixture": "zusatzmaterial/rettung-v4/v4-didaktische-bildgenerierung-ansicht-original.html",
+  "minimumFixtureBytes": 24000000,
+  "expectedSlides": 30,
+  "expectedImages": 107,
+  "expectedRenderedImages": 57,
+  "coldStartMs": 3500,
+  "initialHydratedImages": 18,
+  "singleBuildMs": 900,
+  "navigationP95Ms": 35,
+  "longTasksDuringNavigation": 4
+}

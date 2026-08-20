@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "productId": "zeig-her-slides",
+  "productName": "ZEIG HER Slides",
+  "version": "V0.042",
+  "build": "0.042.20260819-codex",
+  "date": "2026-08-19",
+  "status": "technical-passed",
+  "canonicalFile": "ZEIG-HER-Slides-V0_042_20260819-codex.html",
+  "sourceFile": "src/app.html",
+  "mirrors": [
+    "zeig-her-slides.html",
+    "versions/aktuell/ZEIG-HER-Slides-V0_042_20260819-codex.html",
+    "outputs/release-0.042.20260819-codex/ZEIG-HER-Slides-V0_042_20260819-codex.html"
+  ],
+  "sha256": "9a64db647b572ed55e84ac3bab00a1281dd611b7c3dabe02d79ae89c46b5544a",
+  "manualStatus": "manual-required",
+  "notes": "Gemeinsame, abbrechbare Kamera-Nachmessung für Programm und Ansichts-Datei, robustes Viewer-HUD bei kompakten Breiten sowie wiederhergestellte Fernsicht mit Kapitelüberschriften und direktem Stationssprung. Die gemeinsame Infofläche dokumentiert die Entstehung im Vibe-Coding und trennt Verantwortung, Softwarelizenz und Materiallizenz weiterhin eindeutig."
+}

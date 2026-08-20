@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.034",
+  "build": "0.034.20260819-codex",
+  "kind": "camera-and-notes-layout",
+  "summary": "Rahmen werden mit ausgewogenen Sicherheitsrändern eingepasst; Kapitelübergänge nutzen ihr Inhaltsmaß und Notizen liegen außerhalb des Rahmens.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/runtime/camera-fit.js"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_034_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_034_20260819-codex.html",
+    "outputs/release-0.034.20260819-codex/SCHAU-HIN-Slides-V0_034_20260819-codex.html"
+  ],
+  "riskAreas": [
+    "camera-fit",
+    "chapter-transition-layout",
+    "editor-notes",
+    "high-frame-visibility"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}

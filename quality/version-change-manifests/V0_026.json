@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.026",
+  "build": "0.026.20260819-codex",
+  "kind": "stability-consolidation",
+  "summary": "20-Fall-Stabilitätsmatrix, reale Doppel-Roundtrips, zentraler Schreibgate-Vertrag und geprüfte Entwurfswiederherstellung.",
+  "productFilesChanged": ["src/app.html", "src/runtime/stability-contract.js", "quality/stability-matrix.json"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_026_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_026_20260819-codex.html",
+    "outputs/release-0.026.20260819-codex/SCHAU-HIN-Slides-V0_026_20260819-codex.html"
+  ],
+  "riskAreas": ["roundtrip", "draft-recovery", "storage-ordering", "project-switch", "import-fallback"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

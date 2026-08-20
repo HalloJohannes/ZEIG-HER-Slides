@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.024",
+  "build": "0.024.20260819-codex",
+  "kind": "dedicated-viewer-runtime",
+  "summary": "Eigenes Nachlese-Artefakt ohne Editor-, Speicher-, Bibliotheks- oder Importlogik.",
+  "productFilesChanged": ["src/app.html", "src/viewer.html", "src/runtime/viewer-export.js", "src/runtime/viewer-runtime.js"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_024_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_024_20260819-codex.html",
+    "outputs/release-0.024.20260819-codex/SCHAU-HIN-Slides-V0_024_20260819-codex.html"
+  ],
+  "riskAreas": ["viewer-export", "data-minimization", "navigation-parity", "embed-consent", "print"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

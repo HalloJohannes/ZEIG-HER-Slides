@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "baseline": "V0.017",
+  "generatedAt": "2026-08-18T19:02:58.450Z",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 10244,
+      "sha256": "a1df6802fcf79a8a32667ea04df09ed446c8e6552752d57232fee5b38275ca33"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 401,
+      "sha256": "c0911c47783b1553139d026f36f94a86165cdf47220f654960a5e9703d8d0a47"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 16831,
+      "sha256": "b4c7a948527f91b7e26693f7bd534f5573ab26d4206859bb51e306eedf054daa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1944,
+      "sha256": "789efcb7cbb081e1e9a3d6b85f37eddd5af3ffe4157801daa57baa08587c4e21"
+    },
+    {
+      "path": "SCHAU-HIN-Slides-V0_017_20260818-codex.html",
+      "bytes": 176677,
+      "sha256": "577c374413b8bf48cda4c4d73144077a4c17d7482f21ca26e4155874c93d07b8"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v11_2026-08-18.html",
+      "bytes": 10513835,
+      "sha256": "504e45520b4fdcbb7e18c4a78488cc3cc3cc807abd92f41b1ab7bf5accd630c1"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v12_2026-08-18.html",
+      "bytes": 10514482,
+      "sha256": "e06c92fb78497a4d5a29738272f8837b3847eb5f830051edf935394bd7232969"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v13_2026-08-18.html",
+      "bytes": 10514555,
+      "sha256": "a368e3ab4f494a9f029a86242133b27286d3888e290d55b723b63b0cc5054c48"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v14_2026-08-18.html",
+      "bytes": 10515330,
+      "sha256": "70a5def4523023fd616b5025e5205a06e859bd89bcdbe984ee22af198e36ae57"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v15_2026-08-18.html",
+      "bytes": 10515520,
+      "sha256": "9ed14c1c52e09f27c1851a69cad6fd66bad2055904972b02ca7e940dc93a9d47"
+    },
+    {
+      "path": "Versionen/didaktischebildgenerierung_v16_2026-08-18.html",
+      "bytes": 12339406,
+      "sha256": "81d46cded031005ca939b94a5728992a632762fa962bdf8cb62642176a96785a"
+    },
+    {
+      "path": "Versionen/praesentation_v10_2026-08-18.html",
+      "bytes": 3637245,
+      "sha256": "dcfc6ed354b44189740e904bcb86ab9bedd2a3520b257d89682cbbe7a24f2cdd"
+    },
+    {
+      "path": "Versionen/praesentation_v11_2026-08-18.html",
+      "bytes": 10513835,
+      "sha256": "504e45520b4fdcbb7e18c4a78488cc3cc3cc807abd92f41b1ab7bf5accd630c1"
+    },
+    {
+      "path": "Versionen/praesentation_v12_2026-08-18.html",
+      "bytes": 10514482,
+      "sha256": "e06c92fb78497a4d5a29738272f8837b3847eb5f830051edf935394bd7232969"
+    },
+    {
+      "path": "Versionen/praesentation_v13_2026-08-18.html",
+      "bytes": 10514555,
+      "sha256": "a368e3ab4f494a9f029a86242133b27286d3888e290d55b723b63b0cc5054c48"
+    },
+    {
+      "path": "Versionen/praesentation_v14_2026-08-18.html",
+      "bytes": 10515330,
+      "sha256": "70a5def4523023fd616b5025e5205a06e859bd89bcdbe984ee22af198e36ae57"
+    },
+    {
+      "path": "Versionen/praesentation_v15_2026-08-18.html",
+      "bytes": 10515520,
+      "sha256": "9ed14c1c52e09f27c1851a69cad6fd66bad2055904972b02ca7e940dc93a9d47"
+    },
+    {
+      "path": "Versionen/praesentation_v16_2026-08-18.html",
+      "bytes": 12339406,
+      "sha256": "81d46cded031005ca939b94a5728992a632762fa962bdf8cb62642176a96785a"
+    },
+    {
+      "path": "Versionen/praesentation_v1_2026-08-18.html",
+      "bytes": 3600581,
+      "sha256": "b2301222e0a6e23dda319e8c594738bd2591a66e3cf32cdb580fbd7748bdc440"
+    },
+    {
+      "path": "Versionen/praesentation_v2_2026-08-18.html",
+      "bytes": 3601283,
+      "sha256": "a9dfb9478023e4c6b1110449d43921c617d86e2dff7714b995b22a3f2df8afc8"
+    },
+    {
+      "path": "Versionen/praesentation_v3_2026-08-18.html",
+      "bytes": 3602963,
+      "sha256": "da4a55eaa40439a3b6ae96d5774626cff1c2a2ad9b8bbf761b7a1b7b84900d3a"
+    },
+    {
+      "path": "Versionen/praesentation_v4_2026-08-18.html",
+      "bytes": 3623030,
+      "sha256": "119d7773c2f54eb67f292c11ce76a9f3467b24a1b9365842a2f879887377c524"
+    },
+    {
+      "path": "Versionen/praesentation_v5_2026-08-18.html",
+      "bytes": 3625387,
+      "sha256": "65d543ff81e968d2b8cbccaa7ac51798169d04a585d3b2b2b6ac287275d6ec3a"
+    },
+    {
+      "path": "Versionen/praesentation_v6_2026-08-18.html",
+      "bytes": 3625484,
+      "sha256": "9b48c3df55b8b97c1235ad9f7b35a9f089f8da2a633928a2ead8174975782585"
+    },
+    {
+      "path": "Versionen/praesentation_v7_2026-08-18.html",
+      "bytes": 3626047,
+      "sha256": "14184417c6df7e6ef493107cf82dac1c4175a134d2eb03caf44a28afd9b462ac"
+    },
+    {
+      "path": "Versionen/praesentation_v8_2026-08-18.html",
+      "bytes": 3629687,
+      "sha256": "7d6caf62a3f385c62e45006b79e01ce8fe3f0818b98aaa21498e954c9b7af416"
+    },
+    {
+      "path": "Versionen/praesentation_v9_2026-08-18.html",
+      "bytes": 3635121,
+      "sha256": "ae2133d3130368936a8f929464e9ee245a59f91025709c898ac217e5d33f222f"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v10_2026-08-18.html",
+      "bytes": 170109,
+      "sha256": "26df2f80057e3b5b1b3e283ab36445691a3f8d7e08dcafb3789a91d7f338d564"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v11_2026-08-18.html",
+      "bytes": 173960,
+      "sha256": "97e11209a4f1c9087e2b0eb02e5721be9351f49493713364136247257c9c2f83"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v12_2026-08-18.html",
+      "bytes": 174607,
+      "sha256": "ab56349c515dcf2163adcf009bc3ff52f7912dcab9ca5ddd2ea9d875b6dd4a74"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v13_2026-08-18.html",
+      "bytes": 174680,
+      "sha256": "a072e8a51d1f94b658969c957b090c93c53bc5c134bd3616c5c2dce719b6cba5"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v14_2026-08-18.html",
+      "bytes": 175455,
+      "sha256": "e45cb5bf8bb1be3f5e7fc2a3bcf3c8b743f9c0be53ac329e6950e4bbfa44589f"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v15_2026-08-18.html",
+      "bytes": 175645,
+      "sha256": "81e293a1f6f4b0ec48aed594a48fc629e4be2da9abdbf749c7206df7907bf16e"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v16_2026-08-18.html",
+      "bytes": 175645,
+      "sha256": "81e293a1f6f4b0ec48aed594a48fc629e4be2da9abdbf749c7206df7907bf16e"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v1_2026-08-18.html",
+      "bytes": 131075,
+      "sha256": "79263a094078be6b7bab254834af15fd0e33eb658dbd40d637e5d0a698f5735d"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v2_2026-08-18.html",
+      "bytes": 131777,
+      "sha256": "e0ac7eeff2f44ecc8e272b2bb46d979d7f711a2bc5b3630c5b21a550a1718e92"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v3_2026-08-18.html",
+      "bytes": 133590,
+      "sha256": "172ae334bd7236c17abdf68f5e1d5c7f0087d37e062ddf65689e9dbede766750"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v4_2026-08-18.html",
+      "bytes": 155038,
+      "sha256": "8c28b054e5928dd62e4a73da4b1e0b0a890c6e34f91dc2b9c778dc44c7c493d1"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v5_2026-08-18.html",
+      "bytes": 157566,
+      "sha256": "d37cf8a2c598a48b7cf1848cfe0992ef8c00551d1db3f867208238d7105d5d6c"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v6_2026-08-18.html",
+      "bytes": 157663,
+      "sha256": "3e52910f90210037b5e464836c0806c32028a87260f95e45778546d857a9efaf"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v7_2026-08-18.html",
+      "bytes": 158226,
+      "sha256": "678d1ecfa625ed4da8c1fdcc8c18edfe7efb192b0287e34f0c4efc83a1556a05"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v8_2026-08-18.html",
+      "bytes": 162235,
+      "sha256": "1610624576779feddbf00bbf499703f3b582718b87db5352f6127e955e57614d"
+    },
+    {
+      "path": "Versionen/schau-hin-slides_v9_2026-08-18.html",
+      "bytes": 167985,
+      "sha256": "8b37b2654688b93f64e32bc966b135db901eb15a7c4aee02f7ddc0f21aff87a1"
+    },
+    {
+      "path": "audits/BASELINE_AUDIT_V0_017_20260818.md",
+      "bytes": 1489,
+      "sha256": "059148a3b857bbc0812a85bf69ca2d7a4f7d5efa2288959447f8c67f6e8867f5"
+    },
+    {
+      "path": "didaktischebildgenerierung.html",
+      "bytes": 12340342,
+      "sha256": "b73c019830f0f8a752799515da168b79952f9784c0799e221075f069797dc255"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "bytes": 2083,
+      "sha256": "a7c6a61711b8c22e1a44794eff7229512506c5d9ab06b7deb66d707baab049e9"
+    },
+    {
+      "path": "docs/QUALITAETSGATES.md",
+      "bytes": 1293,
+      "sha256": "96b401b83b57c69d3e2b594806efecf52f517b30a4e1f37acb0c3a17cdf29470"
+    },
+    {
+      "path": "docs/STABILISIERUNGSFAHRPLAN_V0_018_BIS_V0_025.md",
+      "bytes": 1368,
+      "sha256": "cf6cb384c5624dd801c8fc1e1c91201fc4688eeb2933ceea067d04a465cb2847"
+    },
+    {
+      "path": "docs/VERSIONIERUNG_UND_RELEASES.md",
+      "bytes": 1285,
+      "sha256": "56436b3e006df2766cfd823ea4359f272edd0bb79d58b5dd32663d843dfefdd8"
+    },
+    {
+      "path": "outputs/release-0.017.20260818-codex/SCHAU-HIN-Slides-V0_017_20260818-codex.html",
+      "bytes": 176677,
+      "sha256": "577c374413b8bf48cda4c4d73144077a4c17d7482f21ca26e4155874c93d07b8"
+    },
+    {
+      "path": "package.json",
+      "bytes": 528,
+      "sha256": "79195bcb5711746e16ffb98e823e21fd25b24b15b31c48b8e7cfff389c4cf3ad"
+    },
+    {
+      "path": "praesentation.html",
+      "bytes": 12340342,
+      "sha256": "b73c019830f0f8a752799515da168b79952f9784c0799e221075f069797dc255"
+    },
+    {
+      "path": "quality/release-metadata.json",
+      "bytes": 726,
+      "sha256": "dbffb5054e13023b5b01fe97233898e9ee586962b585564a612ea96c524e6a0f"
+    },
+    {
+      "path": "quality/version-change-manifests/V0_017.json",
+      "bytes": 682,
+      "sha256": "1a10291b6d1869d493be7cbaba7db2db129c2e49bd5d8c27f1a063d70bccf915"
+    },
+    {
+      "path": "schau-hin-slides.html",
+      "bytes": 176677,
+      "sha256": "577c374413b8bf48cda4c4d73144077a4c17d7482f21ca26e4155874c93d07b8"
+    },
+    {
+      "path": "schau-hin-slides.zip",
+      "bytes": 50041,
+      "sha256": "15df617f050336337c0aecfd2c4a6867af17e482d7fe9d0dc56784c9d66862b5"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.25.01.png",
+      "bytes": 1411479,
+      "sha256": "31bc7b077f490246b9617fee066cdd9e8c4ed639a9fb3a9ead97e3b9c4c5c008"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.27.23.png",
+      "bytes": 1707503,
+      "sha256": "8713a6dd5c81efdcc155b10a715cb4af5954ec92366d21f52940b1aecf7878fc"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.27.35.png",
+      "bytes": 1668910,
+      "sha256": "0b3734255d025178166c8edce8bf470720ee7306c8f3c9ffa141cc854c086854"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.27.41.png",
+      "bytes": 1834750,
+      "sha256": "78a6bebd0f8e7287653da3e6789d0cdf238ae9fedd6a569f848985259c91d8ef"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.45.05.png",
+      "bytes": 2391346,
+      "sha256": "829909a2d5f89004e670f99fcdc0f90b5a5c7823616a1d8bceb6cf850f71d14a"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.47.04.png",
+      "bytes": 1273449,
+      "sha256": "3f4d8accd3529a66de05ad71aac161bd8fe648d72b10fdef37142da3a77f3e63"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.47.26.png",
+      "bytes": 1460895,
+      "sha256": "1d67ac9745c22061b3e71c8b5d70813dec0d1a97c6c72c5512891409c5844894"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.47.31.png",
+      "bytes": 1334848,
+      "sha256": "1512e926213e10c5da57879c37ffd50a18b5cef84f3b2153e4d29b046a4a7d35"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.51.43.png",
+      "bytes": 791606,
+      "sha256": "28d0911ed9cd74cb98f0119ce87c9be50197a9b0fbb95c0df674872fc25aa214"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.51.48.png",
+      "bytes": 683160,
+      "sha256": "c6fbe739e88eb2c27d15b1f03a666b75fa7e26b2b1972453898e1832c7612c8a"
+    },
+    {
+      "path": "screenshots/Bildschirmfoto 2026-08-18 um 11.59.09.png",
+      "bytes": 116906,
+      "sha256": "02686b1f50a9877747380bcc6b5b8355e9d96689c08d688508213b20393761bc"
+    },
+    {
+      "path": "scripts/build-baseline-inventory.mjs",
+      "bytes": 1267,
+      "sha256": "75623d8baa67f1787a1b4e0128a690092a05793caf9b114cda3e7bce39e3440f"
+    },
+    {
+      "path": "scripts/check-baseline.mjs",
+      "bytes": 982,
+      "sha256": "63a54fe5ab64b1d0c1724668e9bd1985ecda78ddc1a8cd83f0087091c3b94108"
+    },
+    {
+      "path": "scripts/check-release-metadata.mjs",
+      "bytes": 1019,
+      "sha256": "c0e77b79a03e6adc114758576289f4f559f875cb3a8b5ee4435c72cae4e79a1e"
+    },
+    {
+      "path": "scripts/run-release-check.mjs",
+      "bytes": 600,
+      "sha256": "7e3812510ffe772e386301619bbbf5320afb1b701e1026dfce1211f2351d436e"
+    },
+    {
+      "path": "src/legacy/schau-hin-slides-v0.017-source.html",
+      "bytes": 176677,
+      "sha256": "577c374413b8bf48cda4c4d73144077a4c17d7482f21ca26e4155874c93d07b8"
+    },
+    {
+      "path": "tests/release-contract.test.mjs",
+      "bytes": 1016,
+      "sha256": "d0f3f4ef85422288554e92a16a878979ef0c05c05cf694653b1b2b077d65b6b3"
+    },
+    {
+      "path": "twillo_2026_08_19_didaktische_Bildgenerierung.pptx",
+      "bytes": 16798578,
+      "sha256": "71117b4cb9b2620015dda051347c0999f4d7c4dd320c7a59a41502815258f21c"
+    },
+    {
+      "path": "versions/aenderungshistorie/CHANGELOG_VOR_GOVERNANCE_BIS_V0_017.md",
+      "bytes": 16831,
+      "sha256": "b4c7a948527f91b7e26693f7bd534f5573ab26d4206859bb51e306eedf054daa"
+    },
+    {
+      "path": "versions/aenderungshistorie/VERSIONSHISTORIE.md",
+      "bytes": 521,
+      "sha256": "389e5f7f38d1910784399b22e0ae0d0a1216340dc2340ecd31f461b0b5e03c4e"
+    },
+    {
+      "path": "versions/aktuell/SCHAU-HIN-Slides-V0_017_20260818-codex.html",
+      "bytes": 176677,
+      "sha256": "577c374413b8bf48cda4c4d73144077a4c17d7482f21ca26e4155874c93d07b8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "productVersion": "V0.039",
+  "releaseModel": "immutable-static-package",
+  "roles": {
+    "maintainer": ["Release bauen", "automatische Gates prüfen", "Hashattestation veröffentlichen", "Rollback bereithalten"],
+    "hostOperator": ["statische Dateien unverändert ausliefern", "Sicherheitsheader aktivieren", "keine Skripte injizieren", "Zugriffsprotokolle minimieren"],
+    "user": ["lokale Arbeitsdateien sichern", "gebündelte Sichtabnahme bestätigen", "Abweichungen mit Version melden"]
+  },
+  "releaseRequired": ["npm run check", "annotierter Git-Tag", "Versionsregister", "externe Hashverifikation", "vorherige Version im Archiv"],
+  "updateRule": "Nur vollständige Pakete austauschen; keine Mischstände.",
+  "rollbackRule": "Bei einem Blocker vollständiges vorheriges Deploymentpaket wiederherstellen.",
+  "dataRule": "Keine Projektinhalte auf dem Host; nur statische App-Shell-Dateien.",
+  "manualStatus": "prepared-awaiting-user"
+}

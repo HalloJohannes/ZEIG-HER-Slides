@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.041",
+  "build": "0.041.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Produktumbenennung und kompatible Migration",
+  "changes": [
+    "Sichtbarer Produktname in allen aktuellen Oberflächen und Ausgaben auf ZEIG HER Slides umgestellt",
+    "Technische Produktkennung zeig-her-slides und JavaScript-Präfix ZEIG_HER_ vereinheitlicht",
+    "Aktive Browserdatenbank auf zeig-her-slides umgestellt",
+    "Zeitstempelbewusste und verifizierte Übernahme aus schau-hin-slides und bittestil-praesentation",
+    "Alte Browserdatenbanken nach der Übernahme als unveränderte Rückfallquellen erhalten",
+    "Alte Projektdateien und bisherige Demo-Schlüssel weiterhin importierbar",
+    "Werkstatt, Viewer, Handout, Diagnose, Exportdateien und Deploymentartefakte konsistent umbenannt",
+    "Materiallizenz und Über diese Anwendung auch bei kompakten Viewerbreiten dauerhaft erreichbar",
+    "Softwarelizenz auf MIT License mit Copyright-Hinweis für Johannes Koch korrigiert und Erstellerhinweis mit LinkedIn-Profil verknüpft"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

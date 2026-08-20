@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "fonts": [
+    {
+      "family": "Outfit",
+      "style": "normal",
+      "weights": "300-800",
+      "subset": "latin",
+      "format": "woff2-variable",
+      "source": "Google Fonts / fonts.gstatic.com, Outfit v15",
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "src/assets/OFL-Outfit.txt",
+      "assetFile": "src/assets/outfit-latin.woff2.base64",
+      "decodedBytes": 32292,
+      "sha256": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887",
+      "glyphCoverage": "Latin einschließlich ä, ö, ü, Ä, Ö, Ü und ß"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.035",
+  "build": "0.035.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Viewer-Navigation, Kapitelstruktur und PNG-Transparenz",
+  "changes": [
+    "Feste, zentrierte Vor- und Zurück-Navigation in Anwendung und Ansichtsdatei",
+    "Sichtbare Kapitelabstände in der Punktnavigation der Ansichtsdatei",
+    "Vier geordnete Viewer-Aktionen: Kapitel, Übersicht, Drucken/PDF, Vortrag",
+    "Transparente PNG-Bildflächen verlieren beim verzögerten Laden den Platzhalterhintergrund",
+    "Viewer übernimmt das gemeinsame Kamera-Profil für normale Folien und Kapitelübergänge"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

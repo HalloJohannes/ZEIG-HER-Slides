@@ -1,0 +1,14 @@
+{
+  "name": "ZEIG HER Slides",
+  "short_name": "Slides",
+  "description": "Lokale, netzwerkfreie Präsentationswerkstatt",
+  "lang": "de",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f9f8",
+  "theme_color": "#123c4a",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

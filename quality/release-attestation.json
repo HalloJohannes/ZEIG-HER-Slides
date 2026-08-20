@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "product": "ZEIG HER Slides",
+  "version": "V0.042",
+  "build": "0.042.20260819-codex",
+  "expectedGitTag": "V0.042",
+  "productSha256": "9a64db647b572ed55e84ac3bab00a1281dd611b7c3dabe02d79ae89c46b5544a",
+  "technicalStatus": "passed",
+  "manualStatus": "prepared-awaiting-user",
+  "created": "2026-08-19",
+  "policy": {
+    "network": "network-zero-v1",
+    "serverProjectStorage": false,
+    "cookiesInApplication": false,
+    "analytics": false,
+    "telemetry": false,
+    "emojiInProduct": false
+  },
+  "evidence": {
+    "automaticTests": 76,
+    "stabilityCases": 44,
+    "versionManifests": 26,
+    "designTokens": 18,
+    "canonicalBlockKinds": 14,
+    "workshopSurfaces": 61
+  },
+  "limits": [
+    "Host- und Proxyprotokolle liegen außerhalb des Anwendungscodes.",
+    "Die menschliche Sichtabnahme ist vorbereitet und noch nicht als bestanden markiert."
+  ],
+  "files": [
+    {
+      "projectPath": "ZEIG-HER-Slides-V0_042_20260819-codex.html",
+      "bundlePath": "artifacts/ZEIG-HER-Slides.html",
+      "bytes": 414702,
+      "sha256": "9a64db647b572ed55e84ac3bab00a1281dd611b7c3dabe02d79ae89c46b5544a"
+    },
+    {
+      "projectPath": "ZEIG-HER-Slides-Werkstatt.html",
+      "bundlePath": "artifacts/ZEIG-HER-Slides-Werkstatt.html",
+      "bytes": 82241,
+      "sha256": "57f8a978819b64f11160f7cc52ea8e66e65a31ccac65df3432c2e62fdb4d5b55"
+    },
+    {
+      "projectPath": "outputs/governance/ZEIG-HER-Slides-Versionsregister.xlsx",
+      "bundlePath": "artifacts/ZEIG-HER-Slides-Versionsregister.xlsx",
+      "bytes": 16263,
+      "sha256": "ab17c0bc7f46af24205deb4e4e46a421660e5905b954835bdd4b2cb319ae43fb"
+    },
+    {
+      "projectPath": "docs/BETRIEBSHANDBUCH_V0_028.md",
+      "bundlePath": "artifacts/BETRIEBSHANDBUCH.md",
+      "bytes": 1747,
+      "sha256": "d7a2f96f2c40f07d33e559e60f6d5bc3195f446191bf4508a0f86460de12e1ab"
+    },
+    {
+      "projectPath": "docs/UPDATE_UND_ROLLBACK_V0_028.md",
+      "bundlePath": "artifacts/UPDATE_UND_ROLLBACK.md",
+      "bytes": 1323,
+      "sha256": "51bcb1089ee0045711027b58c4d58d8ae23892900f2664dbe01a53515358d8f8"
+    },
+    {
+      "projectPath": "docs/SICHTABNAHME_V0_028.md",
+      "bundlePath": "artifacts/SICHTABNAHME.md",
+      "bytes": 1949,
+      "sha256": "8e9ea6a5e31fef7b7f1a673e797d255b941c33b9cb998199df941fd88550bd06"
+    },
+    {
+      "projectPath": "quality/deployment-attestation.json",
+      "bundlePath": "artifacts/deployment-attestation.json",
+      "bytes": 1701,
+      "sha256": "5566af31070fb054acaaedc5d90d87b1ba3a9d68070b276a958e938916a69ce4"
+    },
+    {
+      "projectPath": "quality/font-assets.json",
+      "bundlePath": "artifacts/font-assets.json",
+      "bytes": 602,
+      "sha256": "a0d21e819d6eaf4b0c781eb783a7b4f72bd730ddc2529b806cd0806f2a3c3c69"
+    },
+    {
+      "projectPath": "quality/operational-policy.json",
+      "bundlePath": "artifacts/operational-policy.json",
+      "bytes": 975,
+      "sha256": "d36be35bb460e8c19a2ee1b70f16ca150840523b9aacfcea81ce737916e66f54"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/index.html",
+      "bundlePath": "artifacts/deployment/index.html",
+      "bytes": 415208,
+      "sha256": "f35a6b318d727b1882eccb305aef51c00919f3e249a1a5c7eda0e7c0ebb0a1da"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/manifest.webmanifest",
+      "bundlePath": "artifacts/deployment/manifest.webmanifest",
+      "bytes": 381,
+      "sha256": "e1901ab90dcf4916e6c4151ac108168aff6c243eb19097c910d1c9642d50c410"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/icon.svg",
+      "bundlePath": "artifacts/deployment/icon.svg",
+      "bytes": 381,
+      "sha256": "c526a4d27de18c2c3caca4dab5931d1ec213703438408e4165763a01c4082dd9"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/sw.js",
+      "bundlePath": "artifacts/deployment/sw.js",
+      "bytes": 966,
+      "sha256": "fcc5e6d6123bbc248f2617fca465db85ef6b29340d68b37729133cb6d150be9c"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/_headers",
+      "bundlePath": "artifacts/deployment/_headers",
+      "bytes": 820,
+      "sha256": "1d2d877244525a16614e3fa388677d5d50f4e49ab6a35c7f0ce8279352882374"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/README.md",
+      "bundlePath": "artifacts/deployment/README.md",
+      "bytes": 1351,
+      "sha256": "4f331938df75ba99b4e513b9f5792d3988f7c6adfe1019669aa354fb5fc45aba"
+    },
+    {
+      "projectPath": "outputs/deployment-0.042.20260819-codex/privacy-attestation.json",
+      "bundlePath": "artifacts/deployment/privacy-attestation.json",
+      "bytes": 1701,
+      "sha256": "5566af31070fb054acaaedc5d90d87b1ba3a9d68070b276a958e938916a69ce4"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.039",
+  "build": "0.039.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Skalierbare Navigation und sichere Browser-Bibliothek",
+  "changes": [
+    "Kapitelmarke in der unteren Leiste auf zehn sichtbare Zeichen mit vollständigem zugänglichem Titel begrenzt",
+    "Stationspfad für große Präsentationen horizontal scrollbar und aktive Station automatisch sichtbar",
+    "Technische Speicherinformationen des aktuellen Projekts standardmäßig eingeklappt",
+    "Zwischenstand speichern als eindeutige Bezeichnung für die Browser-Zwischenablage",
+    "Zweite Bestätigung vor dem endgültigen Löschen eines Bibliotheksprojekts",
+    "Benannter Projektstart mit unmittelbar geöffneter erster Titelfolie",
+    "Kanonische Demo dauerhaft in der Browser-Bibliothek verankert und gegen Löschen geschützt",
+    "Verständlicher Hinweis zu Websitedaten, privatem Modus, Browserwechsel und Projektdatei als portablem Backup"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

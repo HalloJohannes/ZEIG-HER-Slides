@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.017",
+  "build": "0.017.20260818-codex",
+  "kind": "baseline",
+  "summary": "Unveränderte Übernahme des aktuellen Produkt- und Workshopstands in den kontrollierten Projektordner.",
+  "productFilesChanged": [],
+  "governanceFilesAdded": [
+    "README.md",
+    "package.json",
+    "docs/GOVERNANCE.md",
+    "docs/VERSIONIERUNG_UND_RELEASES.md",
+    "docs/QUALITAETSGATES.md",
+    "docs/STABILISIERUNGSFAHRPLAN_V0_018_BIS_V0_025.md",
+    "audits/BASELINE_AUDIT_V0_017_20260818.md",
+    "quality/release-metadata.json"
+  ],
+  "riskAreas": [
+    "release-documentation"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

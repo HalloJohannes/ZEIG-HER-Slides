@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.037",
+  "build": "0.037.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Technische Produktreife und lokale Resilienz",
+  "changes": [
+    "Bis zu fünf projektbezogene lokale Sicherungspunkte mit Duplikat- und Intervallschutz",
+    "Sichtbare lokale Speicherplatzanzeige mit Warn- und Kritischstufe",
+    "Datensparsame Diagnose ohne Projektnamen, IDs, Folientexte oder Bilder und ohne Übertragung",
+    "Transaktionaler, zeitbegrenzter PowerPoint-Import ohne Teilmutation bei Fehlern",
+    "Sichtbarer Versionshinweis beim kontrollierten Import abweichender Projektstände",
+    "Speicher- und Importlogik als separat testbare Runtime-Module"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

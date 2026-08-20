@@ -1,0 +1,28 @@
+{
+  "name": "zeig-her-slides",
+  "version": "0.042.20260819-codex",
+  "private": true,
+  "type": "module",
+  "description": "Kontrollierte Quelle und Single-HTML-Auslieferung für ZEIG HER Slides.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-release.mjs",
+    "deployment:build": "node scripts/build-deployment.mjs",
+    "evidence:build": "node scripts/build-release-evidence.mjs",
+    "werkstatt:build": "node scripts/build-workshop.mjs",
+    "versionsregister:build": "node scripts/build-version-register.mjs",
+    "inventory:build": "node scripts/build-baseline-inventory.mjs",
+    "check:baseline": "node scripts/check-baseline.mjs",
+    "check:release": "node scripts/check-release-artifacts.mjs",
+    "check:werkstatt": "node scripts/check-workshop.mjs",
+    "check:structure": "node scripts/check-project-structure.mjs",
+    "check:metadata": "node scripts/check-release-metadata.mjs",
+    "check:network-zero": "node scripts/check-network-zero.mjs",
+    "check:evidence": "node verification/verify-release.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/run-release-check.mjs"
+  }
+}

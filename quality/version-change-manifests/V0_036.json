@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.036",
+  "build": "0.036.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Werkzeugleiste und kanonischer Farbendialog",
+  "changes": [
+    "Logische Werkzeugfolge aus Projekte, Farben, Projektdatei, Bearbeitungsbefehlen und Abschluss",
+    "Projektfarben als eigener kanonischer Kasten-Dialog direkt neben Projekte",
+    "Technische Werkzeuge bleiben im Projektfenster bewusst nachrangig",
+    "Demo erläutert die neue reduzierte Werkzeuganordnung"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

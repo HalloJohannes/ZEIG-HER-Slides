@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.038",
+  "build": "0.038.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Gebündelte Produktreife, Viewerpräzision und Freigabe",
+  "changes": [
+    "Breitenorientierter Vollrahmen-Fit mit garantierter Höhensicherheit und engerem Kapitelübergang",
+    "Moderationsnotizen nur im Edit-Modus außerhalb des Präsentationsrahmens",
+    "Feste Viewer-Navigation mit sichtbaren Kapitelgruppen und vier eindeutig geordneten Aktionen",
+    "Transparente PNGs ohne Platzhalterverlauf, Hintergrund oder Schatten",
+    "Farben als kanonischer Werkzeugdialog direkt neben Projekte",
+    "Rollierende lokale Sicherungen, Speicherplatzwächter und datensparsame Diagnose",
+    "Transaktionaler PowerPoint-Import mit Zeitlimit und Import-Versionshinweis",
+    "Klartextnormalisierung alter HTML-Entities in Viewer-Titeln und Kapitelnamen",
+    "Reale Browser-Sichtprüfung mit der 30-Stationen-Workshoppräsentation"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

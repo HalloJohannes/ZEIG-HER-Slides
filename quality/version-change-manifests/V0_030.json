@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.030",
+  "build": "0.030.20260819-codex",
+  "kind": "camera-project-dialog-and-layers",
+  "summary": "Zuverlässige Vollrahmen-Navigation, eindeutige Dateifreigabe, großer kanonischer Projekte-Dialog und direkt bedienbare rahmengebundene Ebenen.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/runtime/camera-fit.js",
+    "src/runtime/viewer-runtime.js",
+    "src/workshop.html"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_030_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_030_20260819-codex.html",
+    "outputs/release-0.030.20260819-codex/SCHAU-HIN-Slides-V0_030_20260819-codex.html",
+    "outputs/deployment-0.030.20260819-codex/index.html",
+    "outputs/verification-0.030.20260819-codex/release-attestation.json"
+  ],
+  "riskAreas": ["camera-fit", "viewer-navigation", "project-file-clarity", "modal-focus", "layer-selection", "design-system-parity"],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}

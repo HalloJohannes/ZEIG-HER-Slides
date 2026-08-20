@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "product": "ZEIG HER Slides",
+  "version": "V0.042",
+  "build": "0.042.20260819-codex",
+  "created": "2026-08-19",
+  "policy": {
+    "id": "network-zero-v1",
+    "projectDataTransmission": false,
+    "cookiesInApplication": false,
+    "analytics": false,
+    "telemetry": false,
+    "externalResources": false,
+    "externalFrames": false,
+    "externalNavigation": false,
+    "connectSrc": "none"
+  },
+  "storage": {
+    "projectData": [
+      "IndexedDB des lokalen Browsers",
+      "lokale Arbeitsdatei nach Nutzeraktion"
+    ],
+    "serverProjectStorage": false
+  },
+  "deliveryBoundary": "Der erste Abruf, Service-Worker-Updates und die statischen App-Shell-Dateien erreichen den gewählten eigenen Host. Dabei können Host oder Proxy übliche Verbindungsmetadaten wie IP-Adresse und Zeitpunkt verarbeiten; Projektinhalte werden von der Anwendung nicht übertragen.",
+  "files": {
+    "index.html": {
+      "bytes": 415208,
+      "sha256": "f35a6b318d727b1882eccb305aef51c00919f3e249a1a5c7eda0e7c0ebb0a1da"
+    },
+    "manifest.webmanifest": {
+      "bytes": 381,
+      "sha256": "e1901ab90dcf4916e6c4151ac108168aff6c243eb19097c910d1c9642d50c410"
+    },
+    "icon.svg": {
+      "bytes": 381,
+      "sha256": "c526a4d27de18c2c3caca4dab5931d1ec213703438408e4165763a01c4082dd9"
+    },
+    "sw.js": {
+      "bytes": 966,
+      "sha256": "fcc5e6d6123bbc248f2617fca465db85ef6b29340d68b37729133cb6d150be9c"
+    },
+    "_headers": {
+      "bytes": 820,
+      "sha256": "1d2d877244525a16614e3fa388677d5d50f4e49ab6a35c7f0ce8279352882374"
+    },
+    "README.md": {
+      "bytes": 1351,
+      "sha256": "4f331938df75ba99b4e513b9f5792d3988f7c6adfe1019669aa354fb5fc45aba"
+    }
+  }
+}

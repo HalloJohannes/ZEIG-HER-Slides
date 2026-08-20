@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.032",
+  "build": "0.032.20260819-codex",
+  "kind": "project-dialog-portable-files-logo-and-pdf",
+  "summary": "Das Projektfenster trennt lokale Browserzustände und portable Dateien, erzeugt eine neutrale Programmdatei sowie ein echtes PDF-Handout und führt das Logo-Linkziel am Logo selbst.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/workshop.html"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_032_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_032_20260819-codex.html",
+    "outputs/release-0.032.20260819-codex/SCHAU-HIN-Slides-V0_032_20260819-codex.html",
+    "outputs/deployment-0.032.20260819-codex/index.html",
+    "outputs/verification-0.032.20260819-codex/release-attestation.json"
+  ],
+  "riskAreas": [
+    "project-dialog-information-architecture",
+    "program-file-neutrality",
+    "project-import-library-isolation",
+    "handout-pdf",
+    "logo-toolbar",
+    "design-system-parity"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}
