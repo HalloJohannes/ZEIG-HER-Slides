@@ -6,6 +6,8 @@ Stand: V0.042
 
 ZEIG HER Slides wird als unverändertes statisches HTTPS-Paket bereitgestellt. Es benötigt kein Backend, keine Datenbank, keine Nutzerkonten und keine serverseitige Schreibfunktion. Projekte liegen ausschließlich in IndexedDB des jeweiligen Browsers oder in einer von der nutzenden Person bewusst gespeicherten lokalen HTML-Datei.
 
+Die öffentliche Referenzfassung ist unter [https://hallojohannes.github.io/ZEIG-HER-Slides/](https://hallojohannes.github.io/ZEIG-HER-Slides/) erreichbar. Ein GitHub-Actions-Workflow erzeugt dafür bei jeder Änderung an `main` das kanonische Deploymentpaket neu. Dadurch bleibt der Online-Einstieg mit der lokal herunterladbaren Ausgabe technisch rückverfolgbar und es entsteht kein zweiter Produktstand.
+
 ## Technisch erzwungen
 
 - keine Analyse, Telemetrie, Fehlerübertragung oder Drittanbieterbibliothek
@@ -28,6 +30,8 @@ Darum muss der Betrieb ergänzend sicherstellen:
 3. Zugriffsprotokolle deaktivieren oder auf das organisatorisch nötige Minimum begrenzen,
 4. keine Dateien verschiedener Releases mischen,
 5. nach jedem Update Attestation, Response-Header und Browser-Netzwerkprüfung wiederholen.
+
+GitHub Pages erfüllt die statische Auslieferung, kann die im Paket enthaltene Datei `_headers` jedoch nicht vollständig anwenden. Der öffentliche Pages-Einstieg ist deshalb eine komfortable Referenzbereitstellung; für eine besonders restriktive eigene Domain bleibt ein Host mit Unterstützung dieser Headerregeln die bevorzugte Betriebsform. Diese Hostinggrenze ändert nichts daran, dass die Anwendung keine Projekt- oder Präsentationsdaten an GitHub sendet.
 
 ## Prüfnachweise
 

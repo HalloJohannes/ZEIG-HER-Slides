@@ -5,5 +5,7 @@ self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=
 self.addEventListener("fetch",event=>{
   const url=new URL(event.request.url);
   if(url.origin!==self.location.origin){event.respondWith(new Response("Externe Verbindung gesperrt",{status:451,headers:{"Content-Type":"text/plain;charset=utf-8"}}));return;}
-  event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(cached=>cached||new Response("Nicht Teil der geprüften Offline-Ausgabe",{status:404,headers:{"Content-Type":"text/plain;charset=utf-8"}})));
+  const scopeRoot=new URL("./",self.registration.scope).href;
+  const cacheRequest=url.href===scopeRoot?new Request(new URL("./index.html",self.registration.scope)):event.request;
+  event.respondWith(caches.match(cacheRequest,{ignoreSearch:true}).then(cached=>cached||new Response("Nicht Teil der geprüften Offline-Ausgabe",{status:404,headers:{"Content-Type":"text/plain;charset=utf-8"}})));
 });
