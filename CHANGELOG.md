@@ -9,6 +9,7 @@ Alle wesentlichen Änderungen an ZEIG HER Slides werden hier zusammengefasst. Di
 - Kapitel-, Navigations- und Informationsbereiche im Viewer kollisionsfrei angeordnet
 - gemeinsame, transparente Informationsfläche „Über diese Anwendung“ in Programm- und Ansichtsdateien vereinheitlicht
 - automatisierte Qualitätsmatrix auf 88 Prüfungen erweitert
+- reproduzierbare GitHub-Pages-Bereitstellung samt dauerhaftem Online-Einstieg ergänzt
 
 ## V0.041 – 19. August 2026
 

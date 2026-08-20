@@ -4,9 +4,9 @@
 [![Qualitätsprüfung](https://github.com/HalloJohannes/ZEIG-HER-Slides/actions/workflows/quality.yml/badge.svg)](https://github.com/HalloJohannes/ZEIG-HER-Slides/actions/workflows/quality.yml)
 [![Lizenz: MIT](https://img.shields.io/badge/Lizenz-MIT-0e4050)](LICENSE)
 
-ZEIG HER Slides ist ein bewusst reduziertes Präsentationswerkzeug: Auf einer freien Fläche werden Stationen angelegt, mit wenigen kanonisierten Bausteinen gefüllt und beim Vortrag von einer zur nächsten angefahren. Gestaltung, Editor und Projektinhalt stecken vollständig in einer einzelnen HTML-Datei.
+ZEIG HER Slides ist ein bewusst reduziertes Präsentationswerkzeug: Auf einer freien Fläche werden Stationen angelegt, mit wenigen kanonisierten Bausteinen gefüllt und beim Vortrag von einer zur nächsten angefahren. Gestaltung, Editor und Projektinhalt stecken vollständig in einer einzelnen HTML-Datei. Direkt online verwenden: [https://hallojohannes.github.io/ZEIG-HER-Slides/](https://hallojohannes.github.io/ZEIG-HER-Slides/)
 
-Aktueller Stand: **V0.042 vom 19. August 2026**
+Stand: **19. August 2026** · Version: **V0.042**
 
 ## Schnellstart
 
@@ -89,7 +89,9 @@ Reale Präsentationen, Rettungskopien, Importe, interne Arbeitsaufträge und pri
 
 ## Bereitstellung
 
-Der Quellstand kann statisch bereitgestellt werden. Für die produktive Domain ist ein Host vorgesehen, der die mit `npm run deployment:build` erzeugte Datei `_headers` anwendet. GitHub Pages wird deshalb bewusst nicht automatisch aktiviert: Pages kann die erforderlichen HTTP-Sicherheitsheader nicht vollständig ausliefern.
+Die öffentliche Fassung unter [hallojohannes.github.io/ZEIG-HER-Slides](https://hallojohannes.github.io/ZEIG-HER-Slides/) wird nach jeder Änderung an `main` reproduzierbar aus demselben mit `npm run deployment:build` erzeugten Paket gebaut. Sie enthält die neutrale Demo, aber keine privaten Projekte oder Browser-Bibliotheken.
+
+Beim ersten Aufruf liefert GitHub Pages die statischen Programmdateien aus. Projekt- und Präsentationsdaten werden von der Anwendung nicht an GitHub übertragen und bleiben lokal im Browser beziehungsweise in bewusst exportierten Dateien. GitHub Pages kann die mitgelieferte Datei `_headers` allerdings nicht vollständig anwenden. Für eine besonders restriktive produktive Domain bleibt deshalb ein statischer Host empfehlenswert, der diese Sicherheitsheader unterstützt.
 
 ## Versionierung und Dokumentation
 
