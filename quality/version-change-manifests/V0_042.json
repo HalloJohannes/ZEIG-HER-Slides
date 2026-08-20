@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.042",
+  "build": "0.042.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Gemeinsame Kamera, Viewer-Fernsicht und kompakte Informationsfläche",
+  "changes": [
+    "Kamera-Nachmessung von Anwendung und Ansichts-Datei über einen gemeinsamen, abbrechbaren Controller vereinheitlicht",
+    "Nachkorrekturen nach Navigation, Schrift-, Bild- und Größenänderungen auf 120, 520, 1100 und 1700 Millisekunden erweitert",
+    "Manuelles Zoomen oder Verschieben beendet laufende automatische Nachkorrekturen ohne späteres Zurückspringen",
+    "Viewer-HUD bei 1920, 1456, 1280 und 1024 Pixeln neu geordnet; Materiallizenz liegt links beim Projekttitel",
+    "Fernsicht der Ansichts-Datei zeigt wieder große Kapitelüberschriften wie die Anwendung",
+    "Stationen sind in der Viewer-Fernsicht direkt anklickbar und werden anschließend von der Kamera fokussiert",
+    "Über diese Anwendung benennt Johannes Koch als Ersteller und dokumentiert Claude, Codex und die verantwortete Vibe-Coding-Entstehung",
+    "Viewer-Export besteht aus separat injizierten gemeinsamen Laufzeitmodulen statt eines monolithischen Ersatzblocks"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

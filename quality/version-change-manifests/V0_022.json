@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.022",
+  "build": "0.022.20260819-codex",
+  "kind": "content-and-import-boundary",
+  "summary": "Zentrale Inhalts-, URL-, Embed-, Bild-, Datei- und PPTX-Vertrauensgrenze.",
+  "productFilesChanged": ["src/app.html", "src/runtime/content-boundary.js", "src/runtime/project-schema.js"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_022_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_022_20260819-codex.html",
+    "outputs/release-0.022.20260819-codex/SCHAU-HIN-Slides-V0_022_20260819-codex.html"
+  ],
+  "riskAreas": ["rich-text", "links", "embeds", "images", "json-html-import", "pptx-zip-xml"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

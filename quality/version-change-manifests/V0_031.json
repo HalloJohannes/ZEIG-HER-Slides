@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.031",
+  "build": "0.031.20260819-codex",
+  "kind": "layer-hover-preview-and-root-cleanup",
+  "summary": "Das Ebenenmenü zeigt beim Überfahren und Tastaturfokus den zugehörigen Baustein mit der Auswahlkontur, ohne die Auswahl zu verändern; ältere Root-Versionen sind archiviert.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/workshop.html"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_031_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_031_20260819-codex.html",
+    "outputs/release-0.031.20260819-codex/SCHAU-HIN-Slides-V0_031_20260819-codex.html",
+    "outputs/deployment-0.031.20260819-codex/index.html",
+    "outputs/verification-0.031.20260819-codex/release-attestation.json"
+  ],
+  "riskAreas": ["layer-hover-preview", "selection-state", "keyboard-focus", "root-version-cleanup", "design-system-parity"],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}

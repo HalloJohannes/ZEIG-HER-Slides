@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.029",
+  "build": "0.029.20260819-codex",
+  "kind": "project-portability-and-handout",
+  "summary": "Vollständige Bildrettung und geräteübergreifende Projektdatei-Sicherheit, klarer Projektfluss, Ebenenauswahl und kompakte Handout-Datei.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/runtime/project-schema.js",
+    "src/runtime/content-boundary.js",
+    "src/runtime/handout-export.js",
+    "src/workshop.html"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_029_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_029_20260819-codex.html",
+    "outputs/release-0.029.20260819-codex/SCHAU-HIN-Slides-V0_029_20260819-codex.html",
+    "outputs/deployment-0.029.20260819-codex/index.html",
+    "outputs/verification-0.029.20260819-codex/release-attestation.json"
+  ],
+  "riskAreas": ["project-portability", "legacy-image-migration", "image-hydration", "handout-export", "project-ux"],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}

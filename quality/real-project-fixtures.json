@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-19",
+  "purpose": "Unveränderte Originaldateien des realen V4-Projekts als Regressionstest für Migration, Viewer-Parität, Bildrettung und Bildperformance.",
+  "fixtures": [
+    {
+      "path": "zusatzmaterial/rettung-v4/v4-didaktische-bildgenerierung-3-original.html",
+      "role": "authoring-project",
+      "bytes": 25434272,
+      "sha256": "f071e778f6d1f5eb68fc4afd0665ddeebee307416802276d6b412fc942cf3fe2",
+      "legacySchema": 0,
+      "slides": 30,
+      "blocks": 180,
+      "embeddedImages": 107
+    },
+    {
+      "path": "zusatzmaterial/rettung-v4/v4-didaktische-bildgenerierung-ansicht-original.html",
+      "role": "legacy-viewer",
+      "bytes": 25434289,
+      "sha256": "368f904c9f81e9eb66256da76a5b8083293535b93a2c2e5c9670434c0436ef02",
+      "legacySchema": 0,
+      "slides": 30,
+      "blocks": 180,
+      "embeddedImages": 107
+    }
+  ]
+}

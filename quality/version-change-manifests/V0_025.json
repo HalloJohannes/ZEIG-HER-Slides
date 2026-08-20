@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.025",
+  "build": "0.025.20260819-codex",
+  "kind": "image-render-performance",
+  "summary": "Sichtbarkeitsgesteuerte Bilddekodierung, sequenzielle Decode-Queue und messbare Renderbudgets.",
+  "productFilesChanged": ["src/app.html", "src/runtime/viewer-runtime.js", "quality/performance-budget.json"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_025_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_025_20260819-codex.html",
+    "outputs/release-0.025.20260819-codex/SCHAU-HIN-Slides-V0_025_20260819-codex.html"
+  ],
+  "riskAreas": ["image-decoding", "memory-pressure", "camera-rendering", "image-import", "viewer-images"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

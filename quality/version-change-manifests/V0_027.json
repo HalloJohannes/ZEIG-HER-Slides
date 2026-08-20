@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.027",
+  "build": "0.027.20260819-codex",
+  "kind": "offline-network-zero",
+  "summary": "Lokal eingebettete Outfit-Schrift, Emoji-freie Oberfläche, erzwingende Netzwerk-Null-CSP und statisches Offline-Deployment.",
+  "productFilesChanged": ["src/app.html", "src/runtime/network-zero.js", "src/runtime/viewer-runtime.js", "src/viewer.html"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_027_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_027_20260819-codex.html",
+    "outputs/release-0.027.20260819-codex/SCHAU-HIN-Slides-V0_027_20260819-codex.html",
+    "outputs/deployment-0.027.20260819-codex/index.html",
+    "quality/deployment-attestation.json"
+  ],
+  "riskAreas": ["font-parity", "visual-parity", "network-egress", "cookies", "offline-cache", "hosting-boundary"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

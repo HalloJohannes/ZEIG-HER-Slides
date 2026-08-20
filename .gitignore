@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+.quality-runtime/
+test-results/
+
+# Vor-Governance-Material bleibt lokal erhalten und wird über Hash-Inventare belegt.
+archive/vor-governance/html-versionen/
+archive/vor-governance/pakete/
+*.pptx
+*.zip
+
+# Große aktuelle Workshopdateien werden ab V0.018 in ein kanonisches Projektformat migriert.
+praesentation.html
+didaktischebildgenerierung.html
+zusatzmaterial/screenshots/
+zusatzmaterial/*.html
+zusatzmaterial/rettung-v4/
+zusatzmaterial/Bildschirmfoto*.png
+zusatzmaterial/*Ueberarbeitungsauftrag*.md
+
+# Erzeugte Release-Artefakte werden durch ihre Manifeste belegt.
+outputs/*
+!outputs/governance/
+outputs/governance/*
+!outputs/governance/ZEIG-HER-Slides-Versionsregister.xlsx

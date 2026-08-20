@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.023",
+  "build": "0.023.20260819-codex",
+  "kind": "modular-design-system-source",
+  "summary": "Gemeinsame Token- und Bausteinquelle für Produkt und Werkstatt sowie vollständiges Oberflächeninventar.",
+  "productFilesChanged": ["src/app.html", "src/runtime/ui-contracts.js", "quality/design-system-registry.json", "src/workshop.html"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_023_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_023_20260819-codex.html",
+    "outputs/release-0.023.20260819-codex/SCHAU-HIN-Slides-V0_023_20260819-codex.html",
+    "SCHAU-HIN-Slides-Werkstatt.html"
+  ],
+  "riskAreas": ["build-composition", "design-system-parity", "block-kind-contract", "layer-menu-stacking"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

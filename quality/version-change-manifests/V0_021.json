@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.021",
+  "build": "0.021.20260819-codex",
+  "kind": "schema-and-migration",
+  "summary": "Validierte Projektgrenze, Schema 2, Legacy-Migration und Quarantäne.",
+  "productFilesChanged": ["src/app.html", "src/runtime/project-schema.js"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_021_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_021_20260819-codex.html",
+    "outputs/release-0.021.20260819-codex/SCHAU-HIN-Slides-V0_021_20260819-codex.html"
+  ],
+  "riskAreas": ["schema-validation", "legacy-migration", "draft-recovery", "library-migration", "damaged-input"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

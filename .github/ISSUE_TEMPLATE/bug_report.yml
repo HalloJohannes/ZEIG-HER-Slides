@@ -1,0 +1,48 @@
+name: Fehler melden
+description: Reproduzierbares Problem in ZEIG HER Slides melden
+title: "[Fehler] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Bitte keine vertraulichen Präsentationen, personenbezogenen Daten oder internen Screenshots hochladen.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: V0.042
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser und Betriebssystem
+      placeholder: Firefox 141 unter macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      description: Bitte möglichst knapp und eindeutig beschreiben.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutz
+      options:
+        - label: Die Meldung enthält keine vertraulichen oder personenbezogenen Inhalte.
+          required: true

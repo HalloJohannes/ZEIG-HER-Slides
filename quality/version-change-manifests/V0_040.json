@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.040",
+  "build": "0.040.20260819-codex",
+  "date": "2026-08-19",
+  "scope": "Transparenz, Offline-Grenzen und Materiallizenz",
+  "changes": [
+    "Kanonischer Dialog Über diese Anwendung in Programm und Ansichts-Datei",
+    "Ehrliche Offline-Grenzen ohne Überschreiben nativer Browserfunktionen und ohne automatische externe Verbindung",
+    "Reversible und verifizierte Browserdaten-Migration mit erhaltener Altquelle",
+    "Haftender Speicherhinweis und verständliche Grenzen lokaler Websitedaten",
+    "Ansichts-Export mit Titel, Urheberin oder Urheber, Jahr, CC- oder Freitextlizenz",
+    "Explizite Ausnahme abweichend gekennzeichneter fremder Inhalte von der Materiallizenz",
+    "Getrennte Materiallizenz und Softwareinformationen in der Ansichts-Datei",
+    "Deduplizierte Demo-, CSS-, Schrift- und Infoquelle"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

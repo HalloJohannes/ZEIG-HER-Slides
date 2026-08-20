@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.020",
+  "build": "0.020.20260818-codex",
+  "kind": "storage-hardening",
+  "summary": "Ehrliches Speichermodell und sichere Projektwechsel.",
+  "productFilesChanged": ["src/app.html"],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_020_20260818-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_020_20260818-codex.html",
+    "outputs/release-0.020.20260818-codex/SCHAU-HIN-Slides-V0_020_20260818-codex.html"
+  ],
+  "riskAreas": ["browser-draft","project-library","file-handle","project-switch","download-confirmation"],
+  "automaticStatus": "passed",
+  "manualStatus": "bundled-final-review"
+}

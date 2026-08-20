@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.019",
+  "build": "0.019.20260818-codex",
+  "kind": "persistence-foundation",
+  "summary": "Stabile Projektidentität und Migration der Browserbibliothek von Namen auf IDs.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/runtime/project-identity.js"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_019_20260818-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_019_20260818-codex.html",
+    "outputs/release-0.019.20260818-codex/SCHAU-HIN-Slides-V0_019_20260818-codex.html"
+  ],
+  "riskAreas": [
+    "project-identity",
+    "library-migration",
+    "browser-storage",
+    "release-composition"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "manual-required"
+}

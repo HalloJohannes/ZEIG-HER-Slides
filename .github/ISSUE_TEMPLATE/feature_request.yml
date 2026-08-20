@@ -1,0 +1,23 @@
+name: Funktion vorschlagen
+description: Eine kleine, zum reduzierten Produkt passende Verbesserung vorschlagen
+title: "[Vorschlag] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Anwendungsfall
+      description: Welches konkrete wiederkehrende Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Einfachste sinnvolle Lösung
+      description: Wie könnte die Funktion ohne zusätzliche Komplexität aussehen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Bereits versuchte Alternativen

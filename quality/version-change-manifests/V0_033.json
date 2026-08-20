@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "version": "V0.033",
+  "build": "0.033.20260819-codex",
+  "kind": "viewer-virtualization-visibility-fix",
+  "summary": "Ansichts-Snapshots und Viewer-Runtime entfernen temporäre Virtualisierungszustände, damit Station 1 unabhängig von der beim Export aktiven Station sichtbar startet.",
+  "productFilesChanged": [
+    "src/app.html",
+    "src/runtime/viewer-visibility.js",
+    "src/runtime/viewer-runtime.js"
+  ],
+  "generatedFiles": [
+    "SCHAU-HIN-Slides-V0_033_20260819-codex.html",
+    "schau-hin-slides.html",
+    "versions/aktuell/SCHAU-HIN-Slides-V0_033_20260819-codex.html",
+    "outputs/release-0.033.20260819-codex/SCHAU-HIN-Slides-V0_033_20260819-codex.html",
+    "outputs/deployment-0.033.20260819-codex/index.html",
+    "outputs/verification-0.033.20260819-codex/release-attestation.json"
+  ],
+  "riskAreas": [
+    "viewer-export-snapshot",
+    "viewer-start-visibility",
+    "editor-virtualization-state",
+    "large-project-portability"
+  ],
+  "automaticStatus": "passed",
+  "manualStatus": "prepared-awaiting-user"
+}
