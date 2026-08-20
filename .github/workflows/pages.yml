@@ -26,8 +26,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Geprüftes Deploymentpaket bauen
-        run: npm run deployment:build
+      - name: Vollständigen Qualitäts- und Deploymentlauf ausführen
+        run: npm run check
       - name: Deploymentpaket für Pages bereitstellen
         run: |
           deployment_dir="$(find outputs -maxdepth 1 -type d -name 'deployment-*' -print -quit)"

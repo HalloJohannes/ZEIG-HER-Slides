@@ -9,11 +9,19 @@ const targetDir=path.join(root,"outputs",`deployment-${release.build}`);
 await fs.rm(targetDir,{recursive:true,force:true});
 await fs.mkdir(targetDir,{recursive:true});
 
+function insertBefore(source,marker,insertion,fromEnd){
+  const index=fromEnd?source.lastIndexOf(marker):source.indexOf(marker);
+  if(index<0)throw new Error(`Deployment-Marker fehlt: ${marker}`);
+  return source.slice(0,index)+insertion+"\n"+source.slice(index);
+}
+
 let html=await fs.readFile(release.canonicalFile,"utf8");
 const manifest='<link rel="manifest" href="./manifest.webmanifest">';
 const registration='<script>if("serviceWorker" in navigator&&location.protocol!=="file:"){addEventListener("load",function(){navigator.serviceWorker.register("./sw.js",{scope:"./"}).then(function(){document.documentElement.setAttribute("data-offline-install","registered");}).catch(function(){document.documentElement.setAttribute("data-offline-install","failed");});},{once:true});}else{document.documentElement.setAttribute("data-offline-install","local-file");}</script>';
-if(!html.includes("</head>")||!html.includes("</body>"))throw new Error("Deployment-Marker fehlen.");
-html=html.replace("</head>",manifest+"\n</head>").replace("</body>",registration+"\n</body>");
+/* Der echte Kopf endet vor dem Hauptskript, der echte Dokumentkörper dagegen
+   erst nach allen darin eingebetteten Export-Templates. */
+html=insertBefore(html,"</head>",manifest,false);
+html=insertBefore(html,"</body>",registration,true);
 await fs.writeFile(path.join(targetDir,"index.html"),html);
 
 for(const name of ["manifest.webmanifest","icon.svg","_headers","README.md"]){await fs.copyFile(path.join(sourceDir,name),path.join(targetDir,name));}

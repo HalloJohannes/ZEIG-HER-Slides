@@ -1,4 +1,4 @@
-const CACHE_NAME="zeig-her-slides-__BUILD__";
+const CACHE_NAME="zeig-her-slides-__BUILD__-pages-v2";
 const SHELL=["./index.html","./manifest.webmanifest","./icon.svg","./privacy-attestation.json"];
 self.addEventListener("install",event=>event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

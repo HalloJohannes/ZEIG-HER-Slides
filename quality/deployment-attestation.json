@@ -26,7 +26,7 @@
   "files": {
     "index.html": {
       "bytes": 415208,
-      "sha256": "f35a6b318d727b1882eccb305aef51c00919f3e249a1a5c7eda0e7c0ebb0a1da"
+      "sha256": "e9a781634e558cd476fd8caae1817d3d274b15b32b0cb493a56dd7ec1899723e"
     },
     "manifest.webmanifest": {
       "bytes": 381,
@@ -37,8 +37,8 @@
       "sha256": "c526a4d27de18c2c3caca4dab5931d1ec213703438408e4165763a01c4082dd9"
     },
     "sw.js": {
-      "bytes": 1145,
-      "sha256": "dc0571f6fe3da831d99c534b96d614b2c8d89f688ba6c8926f2b08552aea4930"
+      "bytes": 1154,
+      "sha256": "b9ca5dfd6c0a9ebe9bcc705932ba681a7fd54b17b7c73301670d58f5a81a81f9"
     },
     "_headers": {
       "bytes": 820,
