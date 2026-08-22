@@ -69,7 +69,7 @@
       "projectPath": "quality/deployment-attestation.json",
       "bundlePath": "artifacts/deployment-attestation.json",
       "bytes": 1702,
-      "sha256": "5b7c27027229f15cbaea3d7ca3736e917c9c34161608d9048a658718c644fa28"
+      "sha256": "c086051768e56b3d11858ef84160928d5518474e043af0abb171c52ffbf56f76"
     },
     {
       "projectPath": "quality/font-assets.json",
@@ -104,8 +104,8 @@
     {
       "projectPath": "outputs/deployment-0.042.20260819-codex/sw.js",
       "bundlePath": "artifacts/deployment/sw.js",
-      "bytes": 1154,
-      "sha256": "b9ca5dfd6c0a9ebe9bcc705932ba681a7fd54b17b7c73301670d58f5a81a81f9"
+      "bytes": 1546,
+      "sha256": "e53f5f50a9d78af8f4361088d728414fc83560274c9356453aeb6bcb5bca5ee8"
     },
     {
       "projectPath": "outputs/deployment-0.042.20260819-codex/_headers",
@@ -123,7 +123,7 @@
       "projectPath": "outputs/deployment-0.042.20260819-codex/privacy-attestation.json",
       "bundlePath": "artifacts/deployment/privacy-attestation.json",
       "bytes": 1702,
-      "sha256": "5b7c27027229f15cbaea3d7ca3736e917c9c34161608d9048a658718c644fa28"
+      "sha256": "c086051768e56b3d11858ef84160928d5518474e043af0abb171c52ffbf56f76"
     }
   ]
 }
