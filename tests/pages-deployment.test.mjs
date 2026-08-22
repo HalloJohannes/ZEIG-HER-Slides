@@ -37,10 +37,14 @@ test("Pages fügt seine Ergänzungen am echten Dokumentende ein", async () => {
   }
 });
 
-test("Offline-Cache löst die Pages-Verzeichnisadresse auf index.html auf", async () => {
+test("Offline-Cache löst die Pages-Adresse auf und erholt sich nach Cache-Verlust", async () => {
   const serviceWorker = await read("src/deployment/sw.js");
-  assert.match(serviceWorker, /pages-v2/);
+  assert.match(serviceWorker, /pages-v3/);
   assert.match(serviceWorker, /self\.registration\.scope/);
   assert.match(serviceWorker, /index\.html/);
   assert.match(serviceWorker, /url\.href===scopeRoot/);
+  assert.match(serviceWorker, /fetch\(event\.request\)/);
+  assert.match(serviceWorker, /cache\.put\(cacheRequest,response\.clone\(\)\)/);
+  assert.match(serviceWorker, /cached\|\|fetchAndCache\(\)/);
+  assert.match(serviceWorker, /Externe Verbindung gesperrt/);
 });
